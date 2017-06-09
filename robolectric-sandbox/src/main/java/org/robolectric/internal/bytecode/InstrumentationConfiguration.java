@@ -30,24 +30,13 @@ public class InstrumentationConfiguration {
       Shadow.class.getName(),
 
       // these classes are deprecated and will be removed soon:
-      "org.robolectric.internal.Shadow",
       "org.robolectric.res.builder.DefaultPackageManager",
       "org.robolectric.res.builder.DefaultPackageManager$1",
       "org.robolectric.res.builder.DefaultPackageManager$IntentComparator",
       "org.robolectric.res.builder.DefaultPackageManager$RoboPackageInstaller",
       "org.robolectric.res.builder.DefaultPackageManager$RoboPackageInstaller$1",
       "org.robolectric.res.builder.RobolectricPackageManager",
-      "org.robolectric.res.builder.StubPackageManager",
-      "org.robolectric.util.AccessibilityUtil",
-      "org.robolectric.util.ActivityController",
-      "org.robolectric.util.ApplicationTestUtil",
-      "org.robolectric.util.ContentProviderController",
-      "org.robolectric.util.FragmentController",
-      "org.robolectric.util.FragmentTestUtil",
-      "org.robolectric.util.FragmentTestUtil$FragmentUtilActivity",
-      "org.robolectric.util.IntentServiceController",
-      "org.robolectric.util.ServiceController",
-      "org.robolectric.util.concurrent.RoboExecutorService"
+      "org.robolectric.res.builder.StubPackageManager"
   );
 
   private final List<String> instrumentedPackages;
